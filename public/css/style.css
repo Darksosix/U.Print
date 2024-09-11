@@ -1,0 +1,77 @@
+/* ปรับปรุงฟอนต์และจัดเรียงองค์ประกอบ */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.navbar-brand .logo {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.hero {
+    background-image: url('/images/freelance-background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: rgb(0, 0, 0);
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 2.5rem; /* ปรับขนาดของฟอนต์ให้พอดี */
+}
+
+.hero p {
+    font-size: 1.25rem; /* ปรับขนาดฟอนต์ของข้อความให้เล็กลง */
+}
+
+.hero .btn-lg {
+    padding: 10px 20px;
+    font-size: 1.2rem; /* ปรับขนาดปุ่ม */
+}
+
+.categories {
+    margin-top: 3rem;
+}
+
+.categories h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.categories .card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.categories .card img {
+    height: 150px;
+    object-fit: cover;
+}
+
+.categories .card-body {
+    padding: 1rem;
+}
+
+.categories .card-title {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.categories .card-text {
+    font-size: 1rem;
+}
+
+.categories .card:hover {
+    transform: translateY(-5px);
+}
+
+footer {
+    background-color: #333;
